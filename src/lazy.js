@@ -18,7 +18,7 @@ const loadImage = (entry) =>{
 const observer = new IntersectionObserver((entries) => {
     entries.filter(isIntersecting).forEach(loadImage)
 })
-//
+
 const registerImage =  image => {
     setTimeout(()=>{
         observer.observe(image); 
