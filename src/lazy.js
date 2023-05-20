@@ -1,3 +1,4 @@
+
 let imagenesCargadas = 1;
 const isIntersecting = (entry) => {
     console.log('imagenes cargadas:', imagenesCargadas)

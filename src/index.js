@@ -1,4 +1,7 @@
 import { registerImage } from "./lazy";
+import './index.css';
+
+
 
 const appNode = document.getElementById('images');
 const addbutton = document.querySelector('button');
